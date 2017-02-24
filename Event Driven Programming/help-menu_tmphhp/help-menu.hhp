@@ -1,0 +1,39 @@
+[OPTIONS]
+TITLE=Help Menu
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Auto Index=Yes
+Default Window=Main
+Compiled file=help-menu.chm
+Error Log file=help-menu.log
+Contents file=help-menu.hhc
+Index File=help-menu.hhk
+Default Topic=IntroducingYourProduct.html
+
+[FILES]
+IntroducingYourProduct.html
+FileMenu.html
+EditMenu.html
+ToolsMenu.html
+WindowMenu.html
+
+
+
+
+[WINDOWS]
+Main="Help Menu","help-menu.hhc","help-menu.hhk","IntroducingYourProduct.html","IntroducingYourProduct.html",,,,,0x61520,200,0x384e,[9,9,566,600],0x307e,,,,,,0
+Popup="Popup","help-menu.hhc","help-menu.hhk","IntroducingYourProduct.html","IntroducingYourProduct.html", ,,,,0x00061520,200, 0x0000384E,[9,9,566,600],0x307e,0x8,,,,,0
+
+
+[MAP]
+#include help-menu.h
+
+
+
+[TEXT POPUPS]
+CSHelp.txt
+
+ 
+
